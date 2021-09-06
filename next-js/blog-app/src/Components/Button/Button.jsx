@@ -11,8 +11,4 @@ const ButtonElem = styled.button`
   border: none;
   cursor: pointer;
   color: grey;
-
-  &:hover {
-    color: black;
-  }
 `;
