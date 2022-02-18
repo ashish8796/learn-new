@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import posts from "../../src/utils/post.json";
 
 export default function Post() {
   const router = useRouter();
   const { params } = router.query;
+  const [state, setState] = useState(false);
 
   useEffect(() => {}, []);
   return (
