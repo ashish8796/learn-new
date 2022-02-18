@@ -5,9 +5,6 @@ import posts from "../../src/utils/post.json";
 export default function Post() {
   const router = useRouter();
   const { params } = router.query;
-  // console.log(posts[id - 1].post);
-
-  // console.log({ id });
 
   return (
     <div>
